@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.finalproject.app"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.finalproject.app.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.finalproject.app.DetailActivity"
+            android:label="@string/detail_name"
+            android:parentActivityName="com.finalproject.app.MainActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.finalproject.app.MainActivity" />
+        </activity>
+        <activity
+            android:name="com.finalproject.app.AddActivity"
+            android:label="@string/add" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.finalproject.app.MainActivity" />
+        </activity>
+
+        <provider
+            android:name="com.finalproject.app.data.CourseProvider"
+            android:authorities="com.finalproject.app"
+            android:exported="false" >
+        </provider>
+
+        <receiver
+            android:name="com.finalproject.app.AlarmReceiver"
+            android:exported="false" >
+            <!--  
+            <intent-filter>
+                <action android:name="com.finalproject.app.CUSTOM_INTENT" />
+            </intent-filter>
+            -->
+        </receiver>
+    </application>
+
+</manifest>

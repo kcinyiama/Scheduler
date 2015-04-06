@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Scheduler</string>
+    <string name="detail_name">Course details</string>
+    <string name="add_delete">Add/Delete</string>
+    <string name="notifText">Next class in </string>
+    <string name="detailText">Course details</string>
+    <string name="delete">Delete</string>
+    <string name="view">View</string>
+    <string name="course_name">Course name</string>
+    <string name="course_code">Course code</string>
+    <string name="course_unit">Course unit</string>
+    <string name="instructor">Instructor</string>
+    <string name="location">Location</string>
+    <string name="period">Period</string>
+    <string name="enter_course_name">What\'s the course name?</string>
+    <string name="enter_course_code">And the course code?</string>
+    <string name="enter_course_unit">What\'s the course unit?</string>
+    <string name="enter_instructor">The Instructor(s) taking this course?</string>
+    <string name="enter_location">The room/lecture hall?</string>
+    <string name="add">Add Course or Schedule</string>
+    <string name="choose_action">Pick an action</string>
+    <string name="add_time_schedule">Add time schedule</string>
+    <string name="add_another_course">Add course</string>
+    <string name="course">Course</string>
+    <string name="days">Day</string>
+    <string name="set_start_time">Set start time</string>
+    <string name="set_stop_time">Set stop time</string>
+    <string name="schedule_added">Schedule added</string>
+    <string name="course_added">Course added</string>
+    <string name="incomplete_fields">Incomplete fields</string>
+
+</resources>

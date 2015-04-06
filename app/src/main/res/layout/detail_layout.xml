@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="10dp">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_name"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/codeTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_code"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/unitTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/course_unit"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/instructorTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/instructor"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/locationTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/location"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/periodTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/period"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    <View
+       android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="2dp"
+        android:background="@drawable/border" />
+
+</LinearLayout>
